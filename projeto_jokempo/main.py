@@ -1,4 +1,5 @@
 print("JOGO PEDRA, PAPEL E TESOURA!!")
+print("MELHOR DE 3!!!")
 c1 = 0
 c2 = 0
 loop = "s"
