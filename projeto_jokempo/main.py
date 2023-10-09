@@ -1,12 +1,22 @@
 print("JOGO PEDRA, PAPEL E TESOURA!!")
-print("MELHOR DE 3!!!")
 c1 = 0
 c2 = 0
 loop = "s"
 while loop.lower() == "s":
+    jogo = ["m1", "m2", "m3"]
     for x in range(3):
-        j1 = input("considere m1 = pedra, m2 = papel e m3 = tesoura. agora digite a sua escolha: ")
-        j2 = input("considere m1 = pedra, m2 = papel e m3 = tesoura. agora digite a sua escolha: ")
+        while True:
+            j1 = input("considere m1 = pedra, m2 = papel e m3 = tesoura. agora digite a sua escolha: ")
+            if j1 not in jogo:
+                print("voce digitou um caractere inválido, tente novamente.")
+            else:
+                break
+        while True:
+            j2 = input("considere m1 = pedra, m2 = papel e m3 = tesoura. agora digite a sua escolha: ")
+            if j2 not in jogo:
+                print("voce digitou um caractere inválido, tente novamente.")
+            else:
+                break
         if (j1 == "m1" and j2 == "m3") or (j1 == "m2" and j2 == "m1") or (j1 == "m3" and j2 == "m2"):
             c1 += 1
             print("o jogador n°1 ganhou essa rodada.")
@@ -25,3 +35,4 @@ while loop.lower() == "s":
     if loop.lower() != "s":
         break
 print("programa finalizado")
+
