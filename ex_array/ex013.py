@@ -18,10 +18,10 @@ for i in vetores:
     soma += i
 
 media = soma / 3
-vacm = sum(1 for x in vetores if x > media)
+vacm = sum(1 for j in vetores if j > media)
 
-print(f"o maior valor do seu vetor é: {vetores}")
+print(f"o vetor completo: {vetores}")
 print(f"os pares são: {par}")
 print(f"o maior valor do vetor é: {maiorv}")
 print(f"o menor valor do vetor é: {menorv}")
-print(f"a média dos valores do vetor: {media:.0f}.\n{vacm} são os valores acima da média do vetor.")
+print(f"a média dos valores do vetor: {media:.0f}.\nexiste {vacm} valore(s) acima da média do vetor.")
