@@ -3,7 +3,7 @@ maiorv = menorv = 0
 soma = 0
 pares = []
 
-for x in range(3):
+for x in range(30):
     vetores[x] = int(input(f"digite o {x + 1}º valor: "))
     if x == 0:
         maiorv = menorv = vetores[x]
@@ -14,7 +14,7 @@ for i in vetores:
     if i > maiorv:
         maiorv = i
     soma += i
-media = soma / 3
+media = soma / 30
 vacm = sum(1 for j in vetores if j > media)
 
 print(f"o vetor completo: {vetores}")
