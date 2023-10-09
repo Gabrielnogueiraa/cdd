@@ -1,4 +1,4 @@
-vetores = [0] * 3
+vetores = [0] * 30
 maiorv = menorv = 0
 soma = 0
 pares = []
