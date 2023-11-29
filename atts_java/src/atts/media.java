@@ -22,7 +22,7 @@ public class media {
 				System.out.println("sua média é igual a: " +media);
 				System.out.println("reprovado!");
 			} else {
-				System.out.println("digite uma nota válida para a média poder ser cálculada!");
+				System.out.println("digite uma nota válida para a média poder ser calculada!");
 			}
 		}
 	}		
