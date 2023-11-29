@@ -6,7 +6,7 @@ public class forca {
         String palavraChave = "futebol";
         String letrasUsadas = " ";
         String palavraAdivinhada = "";
-        int tentativas_MAX = 8;
+        int tentativas_MAX = 10;
 
         for (int i = 0; i < palavraChave.length(); i++) {
             palavraAdivinhada += "_";
@@ -31,9 +31,9 @@ public class forca {
                     }
 
                     if (palavraAdivinhada.contains("_")) {
-                        System.out.printf("Muito bom ^_^ ! %c existe na palavra. Ainda tem letras escondidas%n", letraTentada);
+                        System.out.printf("Muito bom! %c existe na palavra. Ainda tem letras escondidas%n", letraTentada);
                     } else {
-                        System.out.printf("Parabens o! A palavra adivinhada era '%s'%n", palavraAdivinhada);
+                        System.out.printf("Parabens! Você adivinhou a palavra, a palavra é '%s'%n", palavraAdivinhada);
                         System.exit(0);
                     }
                 } else {
