@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class forca {
 	public static void main(String[] args) {
-        String palavraChave = "carambola";
+        String palavraChave = "futebol";
         String letrasUsadas = " ";
         String palavraAdivinhada = "";
         int tentativas_MAX = 8;
